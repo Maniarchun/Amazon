@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "HomePage",
+        "description": "",
+        "id": "customer-find-the-right-product;homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13866481700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Launch The Application Url",
+            "match": {
+              "location": "StepDefinition.user_Launch_The_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9009008700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Select The Category From DropDown",
+            "match": {
+              "location": "StepDefinition.user_Select_The_Category_From_DropDown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31679941100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Search The Product In Search Box",
+            "match": {
+              "location": "StepDefinition.user_Search_The_Product_In_Search_Box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3170171900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Click The Right Suggetion For The Requirement",
+            "match": {
+              "location": "StepDefinition.user_Click_The_Right_Suggetion_For_The_Requirement()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Find The Right Product",
+    "description": "",
+    "id": "customer-find-the-right-product",
+    "keyword": "Feature",
+    "uri": "C:/Users/ELCOT/eclipse-workspace/Amazon/src/test/java/com/feature/Amazon.feature",
+    "tags": []
+  }
+]
